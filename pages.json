@@ -1,0 +1,99 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/startPage/startPage",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": "false"
+        }
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false,
+        "disableScroll": false,
+        "app-plus": {
+          "bounce": "none",
+          "titleNView": "false"
+        }
+      }
+    },
+	{
+	  "path": "pages/protocol/service",
+	  "style": {
+	    "navigationBarTitleText": "用户协议",
+	    "enablePullDownRefresh": false,
+	    "disableScroll": false,
+	    "app-plus": {
+	      "bounce": "none",
+	      "titleNView": "false"
+	    }
+	  }
+	},
+	{
+		"path": "pages/protocol/user",
+		"style": {
+			"navigationBarTitleText": "隐私政策",
+			"enablePullDownRefresh": false,
+			"app-plus": {
+				"bounce": "none",
+				"titleNView": "false"
+			}
+		}
+	},
+	
+
+    {
+      "path": "pages/tranServe/index",
+      "style": {
+        "navigationBarTitleText": "运输服务",
+        "enablePullDownRefresh": false,
+		"navigationStyle":"custom",
+        "app-plus": {
+          "titleNView": "false"
+        }
+      }
+    },
+    {
+      "path": "pages/load/load",
+      "style": {
+        "navigationBarTitleText": "出车",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": "false"
+        }
+      }
+    },
+	{
+	  "path": "pages/unLoad/unLoad",
+	  "style": {
+	    "navigationBarTitleText": "回车",
+	    "enablePullDownRefresh": false,
+	    "app-plus": {
+	      "titleNView": "false"
+	    }
+	  }
+	},
+	{
+	  "path": "pages/tranServe/detail/detail",
+	  "style": {
+	    "navigationBarTitleText": "派车单详情",
+	    "enablePullDownRefresh": false,
+	    "app-plus": {
+	      "titleNView": "false"
+	    }
+	  }
+	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "至简管车",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  }
+}

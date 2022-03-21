@@ -1,0 +1,131 @@
+.content {
+	background: #f2f2f2;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+/* 
+.no-list {
+	flex-grow: 1;
+	padding-top: 80rpx;
+	padding-bottom: 20rpx;
+	width: 100%;
+	text-align: center;
+	color: #333;
+	opacity: 0.5;
+}
+
+.no-list img {
+	width: 556rpx;
+	height: 312rpx;
+} */
+
+.nav-btn {
+	box-sizing: border-box;
+
+	height: 80rpx;
+	padding-right: 20rpx;
+	line-height: 80rpx;
+	top: 0;
+	left: 0;
+	background: #fff;
+	color: #0A83FF;
+	font-size: 26rpx;
+	text-align: right;
+}
+
+/* 编辑表单页面样式 */
+.item-box0 {
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	background: #fff;
+	font-size: 28rpx;
+	color: #7f7f7f;
+	margin: -20rpx -30rpx 20rpx;
+}
+.item-box1 {
+	box-sizing: border-box;
+	height: 96rpx;
+	padding: 20rpx;
+	background: #fff;
+	border-radius: 20rpx;
+	font-size: 28rpx;
+	color: #7f7f7f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+.item-center {
+	justify-content: center;
+}
+
+.date-area {
+	min-width: 100rpx;
+}
+
+.add-item {
+	text-align: center;
+	color: #0A83FF;
+	/* padding-left: 40rpx;
+	background: url(./static/add.png) no-repeat;
+	background-size: 30rpx 30rpx;
+	background-position: left center; */
+}
+
+.required {
+	color: red;
+}
+
+
+
+.my-input {
+	/* min-width: 240rpx; */
+	text-align: right;
+	font-size: 28rpx;
+	height: 80rpx;
+	/* padding-right: 10rpx; */
+}
+
+
+
+
+/* 搜索框及搜索列表 */
+.search-box {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 68rpx;
+	padding: 0 20rpx;
+	background: #fff;
+	border-radius: 34rpx;
+	font-size: 28rpx;
+	color: #7f7f7f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30rpx;
+}
+
+/* .search-input {
+	width: 87%;
+	font-size: 28rpx;
+	padding-left: 50rpx;
+	background: url(./static/manager/search.png) no-repeat;
+	background-position: 0 center;
+	background-size: contain;
+} */
+
+
+/* .enter {
+	position: absolute;
+	top: 12rpx;
+	right: 20rpx;
+	width: 40rpx;
+	height: 40rpx;
+	background: url(./static/inside/enter.png) no-repeat center;
+	background-size: 40rpx 40rpx;
+} */
+

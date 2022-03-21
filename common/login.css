@@ -1,0 +1,193 @@
+.login-header {
+	box-sizing: border-box;
+	position: relative;
+	height: 606rpx;
+	/* background: linear-gradient(232deg, #60A2FD, #2D70FF); */
+	/* background: url(./static/login/bg.png) no-repeat; */
+	
+	background-size: 100% 100%;
+	padding: 184rpx 90rpx 50rpx 60rpx;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.login-header image {
+	position: absolute;
+	top: 0;
+	left: 70rpx;
+	width: 100%;
+	margin: 0 -70rpx;
+	height: 606rpx;
+	z-index: 100;
+}
+
+
+
+.header-right {
+	min-width: 260rpx;
+	padding-top: 36rpx;
+	z-index: 101;
+}
+
+.header-title1 {
+	font-size: 52rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 30rpx;
+}
+
+.header-title2 {
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	opacity: 0.61;
+}
+
+.input-area {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.login-input-box {
+	position: relative;
+	height: 154rpx;
+	padding: 20rpx 0 0;
+	display: flex;
+	align-items: flex-end;
+}
+
+.input-name {
+	font-size: 28rpx;
+	color: #797979;
+	font-weight: bolder;
+}
+
+.login-input {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 93rpx;
+	padding: 0 2rpx 0 44rpx;
+	font-size: 32rpx;
+	border-bottom: 1rpx solid #e8e8e8;
+}
+
+.login-btn {
+	margin: 104rpx auto 0;
+	width: 610rpx;
+	height: 88rpx;
+	background: #0A83FF;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 88rpx;
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+
+.verCode {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 30rpx;
+	right: 0;
+	width: 166rpx;
+	height: 52rpx;
+	border: 1rpx solid #0A83FF;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 48rpx;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #0A83FF;
+	z-index: 100;
+}
+
+.no-send {
+	border: 1rpx solid #7f7f7f;
+	color: #7f7f7f;
+}
+
+
+.jump-box {
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 50rpx;
+}
+
+.jump-box>view {
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #477CE9;
+}
+
+.protocal {
+	box-sizing: border-box;
+	padding-top: 304rpx;
+	width: 100%;
+	font-size: 24rpx;
+	text-align: center;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #333333;
+}
+
+.protocal>span {
+	color: #477CE9;
+}
+
+.logo {
+	width: 180rpx;
+	height: 180rpx;
+	background: #FFFFFF;
+
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.login-center {
+	width: 90%;
+	height: 600rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.app-name {
+	width: 80%;
+	text-align: center;
+	margin: 20rpx 0 100rpx;
+}
+
+.userinfo {
+	position: relative;
+	font-size: 28rpx;
+	width: 100%;
+	height: 92rpx;
+	line-height: 92rpx;
+	text-align: center;
+	
+}
+
+.wx-btn {
+	background: #0A83FF;
+	color: #fff;
+}
+
